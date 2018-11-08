@@ -260,25 +260,32 @@ ul.experience-list .experience-description {
     float: left;
     width: 100%;
     padding-bottom: 5px;
-
     
 }
-    span.lang-name {
-        display: block;
-        float: left;
-         width: 200px;
-       
+span.lang-name {
+    display: block;
+    float: left;
+    width: calc(100% - 120px);
+    
 
 
-    }
+}
 
-    .lang-rating {
-        display: block;
-        float: left;
-        width: calc(100% - 200px);
+.lang-rating {
+    display: block;
+    float: left;
+    width: 120px;
 
-    }
+}
 
+.lang-rating span {
+    display: block;
+    float: left;
+    margin-left: 12px;
+}
+.lang-rating span:first-child{
+    margin-left: 0px;
+}
 .tag {
     display: inline-block;
     background-color: #a6505a;
@@ -300,13 +307,13 @@ ul.experience-list .experience-description {
         max-width: 900px;
         margin: 7em auto;
     }
-        .col-left {
-            width: 60%;
-        }
+    .col-left {
+        width: 60%;
+    }
 
-        .col-right {
-            width: 40%;
-        }
+    .col-right {
+        width: 40%;
+    }
     
     
 }
